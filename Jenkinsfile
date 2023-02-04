@@ -1,8 +1,8 @@
 pipeline{
     agent any
-    environment {
-        password = credentials('dockerhub-pwd')
-    }
+´//    environment {
+ //       password = credentials('dockerhub-pwd')
+ //   }
     tools{
         maven 'maven_3_5_0'
     }
