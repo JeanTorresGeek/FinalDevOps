@@ -1,6 +1,6 @@
 pipeline{
     agent any
-´//    environment {
+ //    environment {
  //       password = credentials('dockerhub-pwd')
  //   }
     tools{
